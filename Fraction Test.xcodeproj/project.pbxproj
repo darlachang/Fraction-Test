@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0992A7701C8AD1B3005B6705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992A76F1C8AD1B3005B6705 /* main.m */; };
+		0992A7781C8AD2CB005B6705 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992A7771C8AD2CB005B6705 /* Fraction.m */; };
+		0992A7EA1C9781AE005B6705 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992A7E91C9781AE005B6705 /* Complex.m */; };
+		0999F3501CA2EE1700A216DD /* Fraction+MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 0999F34F1CA2EE1700A216DD /* Fraction+MathOps.m */; };
+		09FED9F31CA42FDD00B89648 /* Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FED9F21CA42FDD00B89648 /* Comparison.m */; };
+		09FED9F61CA432D000B89648 /* math.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FED9F51CA432D000B89648 /* math.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		0992A76C1C8AD1B3005B6705 /* Fraction Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Fraction Test"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0992A76F1C8AD1B3005B6705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0992A7761C8AD2CB005B6705 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		0992A7771C8AD2CB005B6705 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		0992A7E81C9781AE005B6705 /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		0992A7E91C9781AE005B6705 /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
+		0999F34E1CA2EE1700A216DD /* Fraction+MathOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fraction+MathOps.h"; sourceTree = "<group>"; };
+		0999F34F1CA2EE1700A216DD /* Fraction+MathOps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fraction+MathOps.m"; sourceTree = "<group>"; };
+		09FED9F11CA42FDD00B89648 /* Comparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comparison.h; sourceTree = "<group>"; };
+		09FED9F21CA42FDD00B89648 /* Comparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comparison.m; sourceTree = "<group>"; };
+		09FED9F41CA432D000B89648 /* math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math.h; sourceTree = "<group>"; };
+		09FED9F51CA432D000B89648 /* math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = math.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				0992A76F1C8AD1B3005B6705 /* main.m */,
+				0999F34E1CA2EE1700A216DD /* Fraction+MathOps.h */,
+				0999F34F1CA2EE1700A216DD /* Fraction+MathOps.m */,
+				09FED9F11CA42FDD00B89648 /* Comparison.h */,
+				09FED9F21CA42FDD00B89648 /* Comparison.m */,
+				0992A7761C8AD2CB005B6705 /* Fraction.h */,
+				0992A7771C8AD2CB005B6705 /* Fraction.m */,
+				09FED9F41CA432D000B89648 /* math.h */,
+				09FED9F51CA432D000B89648 /* math.m */,
+				0992A7E81C9781AE005B6705 /* Complex.h */,
+				0992A7E91C9781AE005B6705 /* Complex.m */,
 			);
 			path = "Fraction Test";
 			sourceTree = "<group>";
@@ -119,6 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0992A7701C8AD1B3005B6705 /* main.m in Sources */,
+				0992A7EA1C9781AE005B6705 /* Complex.m in Sources */,
+				0999F3501CA2EE1700A216DD /* Fraction+MathOps.m in Sources */,
+				09FED9F61CA432D000B89648 /* math.m in Sources */,
+				09FED9F31CA42FDD00B89648 /* Comparison.m in Sources */,
+				0992A7781C8AD2CB005B6705 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +267,7 @@
 				0992A7751C8AD1B3005B6705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
